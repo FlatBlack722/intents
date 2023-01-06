@@ -27,6 +27,7 @@ areas:
   - name: "kuhinj(a|i|u|sku|ska)"
     id: kitchen
   - name: "dnevn(а|ој|u) sob(a|i|u) | dnevn(i|om) borav(ak|ku)"
+
     id: living_room
   - name: "garaž(а|i|u)"
     id: garage

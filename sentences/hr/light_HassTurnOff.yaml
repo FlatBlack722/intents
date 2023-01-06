@@ -3,7 +3,7 @@ intents:
   HassTurnOn:
     data:
     - sentences:
-        - "<uključi> [svjetlo | svjetla | rasvjetu] [u|na] [prostoriji] <area>"
-        - "<uključi> [sva] [svjetl(a|o)] [u] <area> [svjetla | rasvjetu]"
+        - "<isključi> [svjetlo | svjetla | rasvjetu] [u|na] [prostoriji] <area>"
+        - "<isključi> [sva] [svjetl(a|o)] [u] <area> [svjetla | rasvjetu]"
       slots:
         domain: "light"
