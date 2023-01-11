@@ -1,10 +1,9 @@
 language: hr
 intents:
-  HassTurnOff:
+  HassTurnOn:
     data:
     - sentences:
-        - "<isključi> [svjetlo | svjetla] u <area>"
-        - "<isključi> [sva] [svjetla] u <area>"
+        - "<isključi> [svjetlo | svjetla | rasvjetu] [u|na] [prostoriji] <area>"
+        - "<isključi> [sva] [svjetl(a|o)] [u] <area> [svjetla | rasvjetu]"
       slots:
-        domain: light
-        name: all
+        domain: "light"
